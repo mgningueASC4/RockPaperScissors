@@ -1,25 +1,44 @@
-body{
+body {
     text-align: center;
-}
-h1{
-    text-align: center;
-    margin-bottom: 30px !important;
+    color: white !important;
+    background-image: url("https://cdn-images-1.medium.com/max/1600/1*4AC_PJ41hixgxwxNuWe5tw.gif");
+    background-repeat: no-repeat;
+    background-size: 1370px 730px;
+   font-family: 'Electrolize', sans-serif !important;
+
 }
 
-.yourChoiceText{
-    text-align:center;
-    margin-top: 30px;
-    margin-bottom:30px;
+h1 {
+    text-align: center;
+    margin-bottom: 30px !important;
+    color: white;
+    font-size: 60px !important;
+
 }
-.imgChoices{
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px !important;
+}
+
+.yourChoiceText {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imgChoices {
     /*border: solid;
     border-color: black;
     border-width: 1px;*/
-	height: 100px;
-	width: 100px;
+    height: 100px;
+    width: 100px;
 }
 
-.choice{
+.choice {
     border: solid;
     border-color: black;
     border-width: 1px;
@@ -27,15 +46,43 @@ h1{
     width: 100px;
 }
 
-.container{
+.container {
     text-align: center;
 }
 
-#result{
+#result {
     text-align: center;
 }
 
-.tryAgain{
+.tryAgain {
     height: 80px;
-    width:150px;
+    width: 150px;
+}
+
+.imgChoices {
+    height: 150px;
+    width: 150px;
+}
+
+.h {
+    color: white;
+    font-size: 70px !important;
+}
+
+/*
+.to3Button{
+    background-color:#b2d8d8;
+}
+
+.to5Button{
+    background-color:#66b2b2;
+}
+
+.to7Button{
+    background-color:#008080;   
+}*/
+
+.levels{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }

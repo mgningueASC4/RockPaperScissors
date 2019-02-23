@@ -12,8 +12,26 @@
 
 <body>
 	<h1>Rock Paper Scissors Game!</h1>
-	
-	<br>
+	<h2>First to 5 Points Wins!</h2>
+	<div class="container" style="text-align: center;">
+		<div class="row">
+			<div class="col" style="text-align: center;">
+				<h3 class="title">You</h3>
+				<img class="choice" id="myChoice" src="assets/qmark.png">
+				<h4 class="userPoints">Points: </h4>
+			</div>
+			<div class="col">
+				<h3>Vs</h3>
+			</div>
+			<div class="col" style="text-align: center;">
+				<h3 class="title">Computer</h3>
+				<img class="choice" id="compChoice" src="assets/qmark.png">
+				<h4 class="compPoints"></h4>
+			</div>
+		</div>
+	</div>
+
+	<h3 class="yourChoiceText" style="text-align: center;">Make Your Choice Here</h3>
 	<br>
 	
 	<div class="container">
@@ -29,34 +47,15 @@
 			</div>
 		</div>
 	</div>
-<br>
-<br>
-	<div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4 levels" style="background-color:#b2d8d8;">
-                <h2>Short level</h2>
-                <h4>First to 3 Wins!</h4>
-                <button type="button" id="easyButton" class="btn btn-primary to3Button" onclick="location.href='to3.html'">First to 3</button>
-            </div>
-            <div class="col-lg-4 levels" style="background-color:#66b2b2;">
-                <h2>Medium level</h2>
-                <h4>First to 5 Wins!</h4>
-                <button type="button" id="mediumButton" class="btn btn-primary to5Button" onclick="location.href='to5.html'">First to 5</button>
-            </div>
-            <div class="col-lg-4 levels" style="background-color:#008080;">
-                <h2>Long level</h2>
-                <h4>First to 7 Wins!</h4>
-                <button type="button" id="hardButton" class="btn btn-primary to7Button" onclick="location.href='to7.html'">First to 7</button>
-            </div>
-        </div>
-    </div>
+
+	<div id="result"></div>
 
 
 
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="to3.js"></script>
+	<script type="text/javascript" src="to5.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
